@@ -27,5 +27,3 @@ class Scraper
   end #print_courses
   
 end # class Scraper
-  
-Scraper.get_page

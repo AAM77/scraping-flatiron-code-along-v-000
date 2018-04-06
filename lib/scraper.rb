@@ -18,6 +18,7 @@ class Scraper
       course = Course.new
       course.title = post.css("h2").text
       course.schedule = post.css(".date").text
+      course.description = post.css("p").text
     
   end #get_courses
   

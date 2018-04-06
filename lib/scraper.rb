@@ -34,4 +34,4 @@ class Scraper
   
 end # class Scraper
 
-Scraper.new.get_page
+Scraper.new.print_courses

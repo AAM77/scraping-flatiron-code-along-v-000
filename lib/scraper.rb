@@ -35,6 +35,7 @@ class Scraper
         puts "Title: #{course.title}"
         puts "  Schedule: #{course.schedule}"
         puts "  Description: #{course.description}"
+      end # if course exists
   end #print_courses
   
 end # class Scraper
